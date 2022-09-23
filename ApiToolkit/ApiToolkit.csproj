@@ -1,18 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>DataHead.ApiToolkit</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Chandler Van Scoy</Authors>
+        <Company>Data-Head Inc.</Company>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="MediatR" Version="10.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
-    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="6.0.9" />
-    <PackageReference Include="Microsoft.AspNetCore.Authorization.Policy" Version="2.2.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
-    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.9" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="10.0.1"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="6.0.9"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authorization.Policy" Version="2.2.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9"/>
+        <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.9"/>
+    </ItemGroup>
 
 </Project>
